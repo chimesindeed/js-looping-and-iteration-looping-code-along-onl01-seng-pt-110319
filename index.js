@@ -20,3 +20,13 @@ function writeCards(names, event){
 return thank_you
 }
 
+function countDown(int) {
+    let x = int
+    while (x > 0) {
+        console.log(x)
+        x--
+
+}
+    
+}
+
