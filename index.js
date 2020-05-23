@@ -13,7 +13,7 @@ function wrap(gifts){
 
 function writeCards(names, event){
     let thank_you = []
-    for (i = 0; i < names.length; i++) {
+    for (let i = 0; i < names.length; i++) {
         const message = `Thank you, ${names[i]}, for the wonderful ${event} gift!`
         thank_you.push(message)
 }
